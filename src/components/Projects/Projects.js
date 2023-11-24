@@ -25,7 +25,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
-              isBlog={false}
+              isDone={true}
               title="Let's Meet..."
               description="◦Developed a robust real-time video conferencing system utilizing WebRTC technology, enabling seamless
               virtual communication and collaboration.
@@ -39,7 +39,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
-              isBlog={false}
+              isDone={true}
               title="UrCourse"
               description="◦Developed a dynamic course selling application for an EdTech company, harnessing HTML, CSS,
                 JavaScript, and React to create an immersive and user-friendly online learning experience.
@@ -48,21 +48,10 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
-            />
-          </Col> */}
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
-              isBlog={false}
+              isDone={false}
               title="Robotic Companion for elderly care"
               description="This project aims to create a Robotic Companion for Elderly Care, featuring mood detection, mood-responsive actions, fall detection, and medication dispensing. Through sentiment analysis, we assess the elderly person's mood, allowing the robot to respond accordingly. By utilizing cutting-edge technologies, we provide a comprehensive and compassionate solution to enhance the well-being of our elderly population."
               
@@ -70,21 +59,11 @@ function Projects() {
             <h1>Coming soon...</h1>
           </Col>
 
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col> */}
 
           <Col md={4} className="project-card">
             <ProjectCard
             imgPath={quiz}
-              isBlog={false}
+              isDone={true}
               title="React Quiz App"
               description="Developed a dynamic quiz website for learning React, This web site provides random questions from
               react.js concepts. MUI is used to create an immersive and user-friendly online learning experience."

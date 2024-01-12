@@ -22,6 +22,7 @@ function Projects() {
         </p>
 
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
@@ -56,7 +57,6 @@ function Projects() {
               description="This project aims to create a Robotic Companion for Elderly Care, featuring mood detection, mood-responsive actions, fall detection, and medication dispensing. Through sentiment analysis, we assess the elderly person's mood, allowing the robot to respond accordingly. By utilizing cutting-edge technologies, we provide a comprehensive and compassionate solution to enhance the well-being of our elderly population."
               
             />
-            <h1>Coming soon...</h1>
           </Col>
 
 
